@@ -726,15 +726,14 @@ address{
 }
 
 .footer-form{
-    position: absolute;
-    top: 72px;
-    right: 135px;
+    margin-left: auto;
 }
 .subscribe-form{
     display: flex;
     align-items: center;
     gap: 12px;
 }
+
 .subscribe-title{
     color: var(--color-white);
     text-transform: uppercase;
@@ -833,7 +832,6 @@ margin-right: 41px;
     height: 100%;
     background-color: var(--color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    overflow-y: auto;
     border-radius: 4px;
 }
 
